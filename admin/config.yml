@@ -1,0 +1,130 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# For local testing run: `npx decap-server` and uncomment:
+# local_backend: true
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://your-site.netlify.app
+display_url: https://your-site.netlify.app
+logo_url: /assets/hero.jpg
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - file: "_data/site.json"
+        label: "Global Site Info"
+        name: "site"
+        format: "json"
+        fields:
+          - { label: "Brand", name: "brand", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address line 1", name: "address_line1", widget: "string" }
+          - { label: "Address line 2", name: "address_line2", widget: "string" }
+          - { label: "Hours", name: "hours", widget: "string" }
+          - { label: "Instagram URL", name: "instagram", widget: "string" }
+          - { label: "Facebook URL", name: "facebook", widget: "string" }
+          - { label: "Map embed URL", name: "map_embed", widget: "string" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "_data/home.json"
+        label: "Home Page"
+        name: "home"
+        format: "json"
+        fields:
+          - { label: "Hero eyebrow", name: "hero_eyebrow", widget: "string" }
+          - { label: "Hero title (line 1)", name: "hero_title_1", widget: "string" }
+          - { label: "Hero title (line 2, italic gold)", name: "hero_title_2", widget: "string" }
+          - { label: "Hero subtitle", name: "hero_subtitle", widget: "text" }
+          - { label: "Intro eyebrow", name: "intro_eyebrow", widget: "string" }
+          - { label: "Intro heading", name: "intro_heading", widget: "string" }
+          - { label: "Intro text", name: "intro_text", widget: "text" }
+          - label: "Service previews"
+            name: "service_previews"
+            widget: "list"
+            fields:
+              - { label: Icon, name: icon, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: desc, widget: string }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: "Gallery images"
+            name: "gallery"
+            widget: "list"
+            field: { label: Image, name: image, widget: image }
+
+      - file: "_data/about.json"
+        label: "About Page"
+        name: "about"
+        format: "json"
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: "Title (line 1)", name: title_1, widget: string }
+          - { label: "Title (italic)", name: title_2, widget: string }
+          - { label: "Body paragraph 1", name: body_1, widget: text }
+          - { label: "Body paragraph 2", name: body_2, widget: text }
+          - { label: "Hero image", name: image, widget: image }
+          - { label: "Years label", name: years_label, widget: string }
+          - { label: "Years caption", name: years_caption, widget: string }
+          - label: "Principles"
+            name: principles
+            widget: list
+            fields:
+              - { label: Number, name: n, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: desc, widget: text }
+          - label: "Team"
+            name: team
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Photo, name: image, widget: image }
+
+  - name: "services"
+    label: "Services"
+    files:
+      - file: "_data/services.json"
+        label: "Services & Pricing"
+        name: "services"
+        format: "json"
+        fields:
+          - label: "Categories"
+            name: categories
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Tagline, name: tagline, widget: string }
+              - { label: Description, name: desc, widget: text }
+              - label: Benefits
+                name: benefits
+                widget: list
+                field: { label: Benefit, name: benefit, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Price, name: price, widget: string }
+
+  - name: "testimonials"
+    label: "Testimonials (separate entries)"
+    folder: "content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Quote, name: body, widget: markdown }

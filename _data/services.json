@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "title": "Manicure",
+      "tagline": "The art of the hand.",
+      "desc": "From classic shaping to extended designs, every treatment begins with skin and cuticle care, finishing with premium long-wear color.",
+      "benefits": ["Sterile, single-use tools", "Premium gel & polish", "Skin-loving rituals"],
+      "items": [
+        { "name": "Classic Manicure", "price": "from $45" },
+        { "name": "Gel Polish", "price": "from $65" },
+        { "name": "Combined + Extension", "price": "from $95" }
+      ]
+    },
+    {
+      "title": "Cosmetology",
+      "tagline": "Skincare to advanced aesthetics.",
+      "desc": "A full spectrum from facial rituals and chemical peels to certified injectable treatments — always personalized after consultation.",
+      "benefits": ["Doctor-led consultations", "European clinical brands", "Visible, lasting results"],
+      "items": [
+        { "name": "Signature Facial", "price": "from $120" },
+        { "name": "Chemical Peel", "price": "from $180" },
+        { "name": "Injectables", "price": "on consultation" }
+      ]
+    },
+    {
+      "title": "Laser Hair Removal",
+      "tagline": "Smooth, considered, lasting.",
+      "desc": "Diode laser technology for all skin types and every body area — comfortable, efficient, with measurable results from the first session.",
+      "benefits": ["All body areas", "Suitable year-round", "Comfortable cooling"],
+      "items": [
+        { "name": "Underarms", "price": "from $55" },
+        { "name": "Bikini Full", "price": "from $120" },
+        { "name": "Full Body", "price": "from $390" }
+      ]
+    },
+    {
+      "title": "Eyelash Rituals",
+      "tagline": "Length, lift, luminance.",
+      "desc": "Lamination for a natural, awakened look or extensions tailored to your eye shape — applied lash by lash, with care.",
+      "benefits": ["Hypoallergenic adhesives", "Custom curl & length", "Lasts up to 8 weeks"],
+      "items": [
+        { "name": "Lash Lamination", "price": "from $75" },
+        { "name": "Classic Extensions", "price": "from $110" },
+        { "name": "Volume Extensions", "price": "from $150" }
+      ]
+    },
+    {
+      "title": "Brow Architecture",
+      "tagline": "Shaped to your symmetry.",
+      "desc": "Mapping, shaping, lamination and tinting — designed around the natural geometry of your face for a refined, lifted look.",
+      "benefits": ["Bespoke mapping", "Long-wear tints", "Soft, natural finish"],
+      "items": [
+        { "name": "Brow Shaping & Tint", "price": "from $50" },
+        { "name": "Brow Lamination", "price": "from $80" },
+        { "name": "Full Architecture", "price": "from $110" }
+      ]
+    }
+  ]
+}

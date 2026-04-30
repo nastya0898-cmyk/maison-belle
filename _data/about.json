@@ -1,0 +1,20 @@
+{
+  "eyebrow": "Our story",
+  "title_1": "A decade of devotion to",
+  "title_2": "the feminine",
+  "body_1": "Maison Belle was founded in 2014 around a single belief: that beauty should feel like a quiet homecoming. We are a small team of certified specialists, working with the world's finest clinical brands inside a serene atelier where time slows down.",
+  "body_2": "Every treatment begins with consultation. Every space is sterile, every product hand-selected. The result is care that reveals — never masks — the woman in front of us.",
+  "image": "assets/about.jpg",
+  "years_label": "10+",
+  "years_caption": "Years of craft",
+  "principles": [
+    { "n": "01", "title": "Professionalism", "desc": "Doctor-led consultations and certified specialists in every chair." },
+    { "n": "02", "title": "Hygiene", "desc": "Hospital-grade sterilisation; single-use tools as a quiet standard." },
+    { "n": "03", "title": "Results", "desc": "Visible, lasting outcomes — refined with each visit." }
+  ],
+  "team": [
+    { "name": "Adèle Laurent", "role": "Founder · Lead Cosmetologist", "image": "assets/team1.jpg" },
+    { "name": "Margaux Vidal", "role": "Senior Aesthetician", "image": "assets/team2.jpg" },
+    { "name": "Studio Atelier", "role": "Brow & Lash Artistry", "image": "assets/team3.jpg" }
+  ]
+}

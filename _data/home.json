@@ -1,0 +1,22 @@
+{
+  "hero_eyebrow": "Aesthetic Studio · Est. 2014",
+  "hero_title_1": "Enhance Your",
+  "hero_title_2": "Natural Beauty",
+  "hero_subtitle": "Professional care for your face, body, and confidence — delivered in a quiet, considered space.",
+  "intro_eyebrow": "The House",
+  "intro_heading": "A quiet ritual of beauty, refined over a decade.",
+  "intro_text": "Maison Belle is a sanctuary devoted to the feminine. Certified specialists, premium European products, and treatments that respect your natural rhythm — all within a serene atelier crafted for comfort.",
+  "service_previews": [
+    { "icon": "✦", "title": "Manicure", "desc": "Sculpted, polished, considered." },
+    { "icon": "✧", "title": "Cosmetology", "desc": "Skincare to advanced injectables." },
+    { "icon": "✂", "title": "Laser Hair Removal", "desc": "Smooth, lasting, precise." },
+    { "icon": "❍", "title": "Lash Lamination", "desc": "Length, lift and luminance." },
+    { "icon": "❀", "title": "Brow Architecture", "desc": "Shaped to your natural symmetry." }
+  ],
+  "testimonials": [
+    { "name": "Élise M.", "text": "An absolute haven. Every detail considered, every treatment exquisite. I leave feeling entirely myself — only softer." },
+    { "name": "Camille R.", "text": "The most professional cosmetology I have experienced. Results that whisper, never shout." },
+    { "name": "Sofia L.", "text": "From the scent in the air to the warmth of the team — pure quiet luxury." }
+  ],
+  "gallery": ["assets/g1.jpg","assets/g2.jpg","assets/g3.jpg","assets/g4.jpg"]
+}

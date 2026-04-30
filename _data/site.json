@@ -1,0 +1,12 @@
+{
+  "brand": "Maison Belle",
+  "tagline": "Aesthetic Studio · Est. 2014",
+  "phone": "+1 (555) 012-3456",
+  "email": "hello@maisonbelle.studio",
+  "address_line1": "14 Rue de la Lumière",
+  "address_line2": "Paris 75008, France",
+  "hours": "Tue – Sun · 10:00 – 20:00",
+  "instagram": "#",
+  "facebook": "#",
+  "map_embed": "https://www.openstreetmap.org/export/embed.html?bbox=2.297%2C48.866%2C2.317%2C48.876&layer=mapnik"
+}
